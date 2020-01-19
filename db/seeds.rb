@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Gear.destroy_all
+
+g1 = Gear.create!(name: "Dirty Chucks", price: 1, description: "Some dusty Chuck Taylors", img_url: "https://www.chucksconnection.com/articles/starcleanerforchucks/newlifeforoldchucks01.jpg")
